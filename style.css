@@ -1,0 +1,12 @@
+.hero img{
+width: 100%;
+height: auto;
+float: right;
+}
+header img{
+    width: 10%;
+}
+*{
+margin: 0;
+padding: 0;
+}
