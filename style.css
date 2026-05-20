@@ -183,6 +183,7 @@ main{
     text-align: left;
     margin-top: -5px;
     padding-left: 12%;
+    padding-bottom: 3%;
     padding-top: 0;
     font-family: "Anton", sans-serif;
 
@@ -199,7 +200,6 @@ main{
     padding-top: 1%;
     margin-left: 5%;
     margin-right: 10%;
-    margin-bottom: 5%;
     text-align: left;
     width: 50%;
     float: right;
