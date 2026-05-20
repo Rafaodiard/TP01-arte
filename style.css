@@ -2,7 +2,6 @@
 *{
 margin: 0;
 padding: 0;
-    outline: 1px solid red;
 
 }
 body{
@@ -134,9 +133,6 @@ main{
     width: 100%;
     border-radius: 5px;
 }
-.logros{
-    clear: both;
-}
 
 
 
@@ -245,13 +241,23 @@ footer img{
     margin-bottom: 0;
 }
 .logros{
-    background-color: black;
+    
+    clear: both;
+        background-image: url(images/degradadoequipos.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-.logros div p
-{
-    width: 50%;
+.logros h1{
+    text-align: center;
+    color: rgb(214, 0, 0);
+    font-size: 100px;
+    padding-top: 2%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 0;
+    text-decoration: underline;
 }
-.logros div{
+.logros div div{
     display: inline-block;
     width: 30%;
     margin-left: 11%;
@@ -262,26 +268,27 @@ footer img{
 
 
 }
-.logros div div{
-    display: inline-block;
-    width: 25%;
-    padding: 2%;
+.logros div {
+
+margin-left: 10%;
     
 }
 
-.logros div h1{
+.logros div div h1{
     font-size: 35px;
     margin-bottom: 3%;
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
+    color: black;
  
 }
-.logros div p{
+.logros div div p{
+        width: 50%;
+
     font-size: 15px;
     margin-bottom: 3%;
     text-align: center;
-    padding-top: 2%;
     padding-bottom: 2%;
     margin-left: 25%;
 }
@@ -306,7 +313,7 @@ footer img{
 .equipos div{
     display: inline-block;
     width: fit-content;
-    margin-left: 32%;
+    margin-left: 29%;
     
     margin-top: 3%;
     margin-bottom: 5%;
@@ -338,9 +345,39 @@ font-size: 30px
         
 
 }
+.equipo{
+    margin-top: 4%;
+    margin-bottom: 20%;
+    display: block;
+}
 
-
-
+.equipo .titulo{
+    margin-left: 0;
+    margin-top: -40px;
+    background-color: black;
+    height: 150px;
+    margin-bottom: 3%;
+}
+.equipo .titulo h1{
+        color: rgb(192, 4, 4);
+        text-align: center;
+        font-size: 100px;
+        letter-spacing: 0;
+        margin-top: 1%;
+}
+.equipo img{
+    width: 10%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 3%;
+}
+.equipo h2{
+    font-size: 30px;
+}
+.equipo div{
+    clear: both;
+    margin-left: 5%;
+}
 
 
 
