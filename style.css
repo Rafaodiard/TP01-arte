@@ -485,4 +485,67 @@ font-size: 30px
     margin-bottom: 10%;
     font-size: 40px;
 }
+.torneos{
+    background-image: url(images/FondoTorneos.png);
+    width: 1400px;
 
+    
+}
+
+.torneos h1{
+    color: white;
+
+    font-size: 70px;
+    font-family: Impact;
+
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.torneos div{
+    width: 20%;
+    background-color: #0b0b0b;
+    border: 1px solid #181818;
+    display: inline-block;
+    margin-left: 4%;
+    box-shadow: 0px 0px 8px black;
+}
+
+.torneos div img{
+    width: 100%;
+}
+
+.torneos div h2{
+    color: #7e7e7e;
+    font-size: 14px;
+    font-family: Arial;
+    margin-left: 2.5%;
+    margin-top: 2%;
+}
+
+.torneos div h1{
+    color: white;
+    font-size: 38px;
+    font-family: Impact;
+    margin-bottom: 0%;
+}
+
+#for{
+    width: 22%;
+    margin-left: 2.5%;
+    margin-top: 3%;
+}
+
+.torneos div a{
+    display: block;
+    width: 100%;
+    height: 3%;
+    border: 1px solid red;
+    color: red;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1.5%;
+    margin-top: 3.5%;
+}
