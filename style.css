@@ -48,7 +48,6 @@ header nav ul li a{
 
 main{
         padding-top:8%;
-        min-height: 40.5vh; 
 
 }
 .hero{
@@ -84,6 +83,24 @@ main{
     margin-top: 4%;
     margin-left: 13%;
     float: left;
+}
+.qsomos{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: left;
+    clear: both;
+    color: white;
+    background-color: #2a2829;
+}
+.qsomos h1{
+    font-size: 50px;
+    text-decoration: underline;
+    letter-spacing: 0;
+    margin-bottom: 1%;
+    margin-left: 5%;
+}
+.qsomos p{
+    margin-left: 5%;
 }
 
 .juegos{
@@ -378,22 +395,46 @@ font-size: 30px
     clear: both;
     margin-left: 5%;
 }
+.introduccion{
+    margin-top: 5%;
+}
+.introduccion h1{
+            color: rgb(192, 4, 4);
+        text-align: center;
+        font-size: 100px;
+        letter-spacing: 0;
+        margin-top: 1%;
+}
+.introduccion h2{
+                color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 30px;
+        letter-spacing: 0;
+        margin-top: 1%;
+        width: 55%;
+        margin-left:22% ;
+}
+.contacto{
+    margin-bottom:5% ;
+}
 .contacto form{
-    width: 600px;
-    margin: 80px auto;
+    width: 30%;
     background-color: #111827;
-    padding: 40px;
+    padding: 2%;
     border-radius: 20px;
     box-shadow: 0px 0px 20px black;
+    margin-top: 5%;
+    padding-right: 4%;
+    margin-left: 31%;
 }
 
 
 
 .contacto form input{
     width: 100%;
-    padding: 15px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    padding: 2.5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
     background-color: #1f2937;
     color: white;
     border: 2px solid #374151;
@@ -403,9 +444,9 @@ font-size: 30px
 
 .contacto form select{
     width: 100%;
-    padding: 15px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    padding: 2.5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
     background-color: #1f2937;
     color: white;
     border: 2px solid #374151;
@@ -415,12 +456,12 @@ font-size: 30px
 
 .contacto form textarea{
     width: 100%;
-    padding: 15px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    padding: 2.5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
     background-color: #1f2937;
     color: white;
-    border: 2px solid #374151;  
+    border: 2px solid #374151;
     border-radius: 10px;
     font-size: 16px;
 }
@@ -430,11 +471,18 @@ font-size: 30px
 }
 .contacto form button{
     width: 100%;
-    padding: 15px;
+    padding: 2%;
     background-color: #dc2626;
     color: white;
     border-radius: 12px;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.penviada{
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 10%;
+    font-size: 40px;
 }
 
