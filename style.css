@@ -2,7 +2,6 @@
 *{
 margin: 0;
 padding: 0;
-
 }
 body{
        font-family: "Anton", sans-serif;
@@ -47,8 +46,8 @@ header nav ul li a{
 
 
 main{
-        padding-top:8%;
-
+    padding-top:8%;
+        
 }
 .hero{
     width: 100%;
@@ -283,6 +282,9 @@ footer img{
     background-image: url(images/fondobotones.webp);
     border-radius: 20px;
 
+        background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
 }
 .logros div {
@@ -330,7 +332,7 @@ margin-left: 10%;
 .equipos div{
     display: inline-block;
     width: fit-content;
-    margin-left: 29%;
+    margin-left: 25%;
     
     margin-top: 3%;
     margin-bottom: 5%;
@@ -357,7 +359,7 @@ margin-left: 10%;
         margin-top: 25%;
         color: rgb(255, 255, 255);
         letter-spacing: 1px;
-font-size: 30px
+        font-size: 30px
 
         
 
@@ -487,18 +489,22 @@ font-size: 30px
 }
 .torneos{
     background-image: url(images/FondoTorneos.png);
-    width: 1400px;
-
-    
+    width: 100%;
+    padding-top: 2%;
+}
+.torneos p{
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 8%;
+    font-size: 10px;
 }
 
 .torneos h1{
     color: white;
-
     font-size: 70px;
-    font-family: Impact;
-
-    margin-left: 20px;
+    text-align: center;
+    margin-left: 20 px;
     margin-bottom: 40px;
 }
 
@@ -534,9 +540,11 @@ font-size: 30px
     width: 22%;
     margin-left: 2.5%;
     margin-top: 3%;
+    float: left;
 }
 
 .torneos div a{
+    clear: both;
     display: block;
     width: 100%;
     height: 3%;
