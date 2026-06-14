@@ -282,6 +282,7 @@ footer img{
         
     float: left;
     width: 30%;
+    height: 180px;
     margin-left: 11%;
     margin-top: 3%;
     margin-bottom: 5%;
@@ -309,7 +310,7 @@ margin-left: 10%;
  
 }
 .logros div div p{
-        width: 50%;
+        width: 55%;
 
     font-size: 15px;
     margin-bottom: 3%;
